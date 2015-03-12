@@ -37,7 +37,7 @@ module.exports = function(filename, asIs, after) {
         if (file.isStream()) { return this.emit('error', new PluginError('gulp-as-css-imports', 'Streaming not supported')); }
 
         this.emit('data', file);
-        cssImports.push(path.relative('.', file.path));
+        cssImports.push(path.relative('.', file.relative));
     }
 
     function endStream() {

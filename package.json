@@ -1,7 +1,7 @@
 {
     "name": "gulp-as-css-imports",
     "description": "Add CSS file with @import for all files in the stream",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "https://github.com/hoho/gulp-as-css-imports",
     "repository": "git://github.com/hoho/gulp-as-css-imports.git",
     "author": "Marat Abdullin <dakota@brokenpipe.ru>",
@@ -16,7 +16,7 @@
         "url": "https://github.com/hoho/gulp-as-css-imports/issues"
     },
     "dependencies": {
-        "gulp-util": "~3.0.1",
+        "gulp-util": "~3.0.4",
         "through": "~2.3.6"
     },
     "devDependencies": {
